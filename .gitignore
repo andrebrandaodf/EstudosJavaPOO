@@ -1,0 +1,64 @@
+# Diretório do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Arquivos e diretórios do IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+.project
+.classpath
+.settings/
+target/
+
+# Arquivos de build do Maven
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# Arquivos de build do Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+.gradle/cache/
+.gradle/configuration-cache/
+.gradle/daemon/
+.gradle/reports/
+.gradle/buildOutputCleanup/
+.gradle/snapshots/
+.gradle/workspace/
+.gradle/caches/
+gradle-app.setting
+
+# Logs e bancos de dados locais
+*.log
+*.sql
+*.sqlite
+
+# Diretórios de execução e logs do Spring Boot
+*.jar
+*.war
+*.ear
+logs/
+data/
+tmp/
+
+# Arquivos de configuração locais
+application-*.yml
+application-*.yaml
+application-*.properties
+
+# Arquivos de ambiente e variáveis de sistema
+.env
+
+# Arquivos específicos do sistema operacional
+*.swp
+*~
